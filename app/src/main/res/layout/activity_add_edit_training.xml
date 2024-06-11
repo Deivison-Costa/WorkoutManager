@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.AddEditTrainingActivity">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextTrainingName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:hint="@string/training_name"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextTrainingDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTrainingName"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:hint="@string/description"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonSaveTraining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTrainingDescription"
+        android:text="@string/save" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Workout Manager</string>
+    <string name="add_training">Add Training</string>
+    <string name="add_exercise">Add Exercise</string>
+    <string name="exercise_description">Exercise Description</string>
+    <string name="training_name">Training Name</string>
+    <string name="save">Save</string>
+    <string name="description">Description</string>
+    <string name="exercise_name">Exercise Name</string>
+    <string name="observations">Observations</string>
+    <string name="save2">Save</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+</resources>
